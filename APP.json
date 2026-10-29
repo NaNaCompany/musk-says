@@ -7,7 +7,7 @@
   "profile": "https://x.com/elonmusk",
   "initials": "EM",
   "color": "#526d86",
-  "photo": "musk",
+  "photo": true,
   "photo_source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Royal_Society.jpg",
   "photo_creator": "Debbie Rowe / The Royal Society (uploaded by Duncan.Hull)",
   "photo_license": "CC BY-SA 3.0",
@@ -20,5 +20,6 @@
   "coverage": "partial",
   "content_mode": "official_embeds",
   "browse_timezone": "UTC",
-  "portrait": "assets/portrait.jpg"
+  "portrait": "assets/portrait.jpg",
+  "feed_version": "20261029"
 }

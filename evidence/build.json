@@ -6,11 +6,11 @@
   "posts": 55099,
   "months": 162,
   "days": 3453,
-  "html_pages": 58717,
+  "html_pages": 61413,
   "sitemap_leaves": [
     {
       "file": "sitemap-main.xml",
-      "urls": 3618
+      "urls": 6314
     },
     {
       "file": "sitemap-posts-01.xml",

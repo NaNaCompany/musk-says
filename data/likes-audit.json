@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "slug": "musk-says",
+  "processed_at": "2026-10-29T00:35:38Z",
+  "records": 55099,
+  "known_like_counts": 55009,
+  "unavailable_like_counts": 90,
+  "observed_zero_counts": 650,
+  "old_posts_sha256": "3e5b1f08f0be3df3e9fe0b7b56ad397e1703c7a2837b96eeb44bca95126a6c4d",
+  "preserved_fields": "Every original field, record ID, publication date, timestamp, source ID and original URL preserved; only like_count, likes_captured_at and likes_source added.",
+  "unavailable_policy": "Unknown, missing, rounded-only, inaccessible or author/ID-mismatched counts are null, never fabricated as zero.",
+  "text_policy": "No scraped bodies, translations, media or third-party summaries added to the post corpus.",
+  "source": {
+    "url": "https://www.kaggle.com/datasets/dadalyndell/elon-musk-tweets-2010-to-2025-march?datasetVersionNumber=11",
+    "version": 11,
+    "raw_sha256": "0ebe832a7f96cb99ee1cc6c1dbaef294fdcaa7c309780fa9b988a1dbb2a16292",
+    "snapshot_updated_at": "2025-04-13T22:30:20.703Z",
+    "source_fields": [
+      "all_musk_posts.csv: id + likeCount",
+      "musk_quote_tweets.csv: musk_tweet_id + musk_quote_like_count (missing primary IDs only)"
+    ],
+    "priority": "Primary all_musk_posts count retained on conflicts; never select maximum or quoted author likes.",
+    "precision": "exact integer as published by dataset; historical snapshot, not a current platform measurement",
+    "stats": {
+      "primary_missing_counts": 90,
+      "primary_exact_rows": 55009
+    }
+  },
+  "failures": [],
+  "limitation": "Counts are from the existing dataset version updated 2025-04-13. likes_captured_at denotes its snapshot date; exact original measurement times were not supplied. They must not be presented as live/current counts."
+}
