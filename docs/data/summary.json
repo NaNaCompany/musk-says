@@ -1,11 +1,11 @@
 {
   "slug": "musk-says",
-  "captured_at": "2026-10-28T13:27:32.874967+00:00",
+  "captured_at": "2026-11-10T12:18:29.675999+00:00",
   "coverage": "partial",
-  "records": 55099,
+  "records": 55100,
   "first": "2010-06-04",
-  "last": "2025-04-13",
-  "exact_time": 55099,
+  "last": "2026-11-01",
+  "exact_time": 55100,
   "sources": [
     {
       "id": "aryansingh0909/elon-musk-tweets-updated-daily",
@@ -34,15 +34,33 @@
       "body_rights": "not established; bodies excluded",
       "raw_sha256": "0ebe832a7f96cb99ee1cc6c1dbaef294fdcaa7c309780fa9b988a1dbb2a16292",
       "parsed_rows": 55098
+    },
+    {
+      "id": "x-official-oembed-20261110",
+      "url": "https://publish.twitter.com/oembed",
+      "redistributed_fields": [
+        "post_id",
+        "original_url",
+        "author",
+        "ID-derived creation timestamp"
+      ],
+      "body_rights": "Standalone body reuse not established; no new bodies or media stored",
+      "selection": "1 selectively discovered permalinks verified by official author_url and canonical post URL; not full account coverage"
     }
   ],
   "post_body_policy": "No scraped bodies, images or third-party summaries redistributed. Only factual post identities, dates and original permalinks; post content is displayed through official platform embeds.",
+  "refresh": {
+    "checked_at": "2026-11-10T12:18:29.675999+00:00",
+    "added_records": 1,
+    "coverage": "partial",
+    "evidence": "evidence/refresh-20261110.json"
+  },
   "subject": "Elon Musk",
   "account": "elonmusk",
   "platform_counts": {
-    "x": 55099
+    "x": 55100
   },
-  "days": 3453,
-  "months": 162,
+  "days": 3454,
+  "months": 163,
   "content_mode": "text_preview_and_official_embeds"
 }

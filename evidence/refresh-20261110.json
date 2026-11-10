@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-11-10T12:18:29.675999+00:00",
+  "slug": "musk-says",
+  "records_before": 55099,
+  "records_after": 55100,
+  "added_ids": [
+    "x-2116985908268572975"
+  ],
+  "coverage": "partial; selective verified permalink additions, not complete account collection",
+  "coverage_before": "2025-04-13",
+  "coverage_after": "2026-11-01",
+  "body_policy": "No new post body, image or third-party summary redistributed. Official oEmbed used only to verify author and permalink; unknown text/media/likes remain unavailable. Existing overlays unchanged.",
+  "policy_urls": [
+    "https://x.com/en/tos",
+    "https://help.x.com/en/using-x/how-to-embed-a-post"
+  ],
+  "access_attempts": [
+    {
+      "slug": "musk-says",
+      "id": "2116985908268572975",
+      "handle": "elonmusk",
+      "endpoint": "https://publish.twitter.com/oembed?url=https://x.com/elonmusk/status/2116985908268572975&omit_script=true",
+      "http_status": 200,
+      "author_verified": true,
+      "author_url": "https://x.com/elonmusk",
+      "url": "https://x.com/elonmusk/status/2116985908268572975",
+      "raw_sha256": "9e86d4811803864091e0e911d08527949f060fec1f6997507dbe88506386c1b7",
+      "author_name": "Elon Musk"
+    }
+  ],
+  "tests": {
+    "build": "passed",
+    "static_check": "passed",
+    "node_tests": "39/39 passed",
+    "browser_qa": "not run",
+    "publication": "not pushed or deployed"
+  },
+  "classification_policy": "Reply/quote/native-repost status is not inferred from oEmbed; new records leave subtype unknown. Matching official author and canonical post identity are verified.",
+  "discovery_sources": [
+    "https://www.elonmuskarchive.org/posts/2116985908268572975"
+  ],
+  "preservation_checks": {
+    "existing_records_unchanged": true,
+    "existing_text_overlay_bytes_unchanged": true,
+    "production_runtime_unchanged": true
+  }
+}
